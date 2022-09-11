@@ -33,7 +33,7 @@ export default function Landing(props) {
     }, 3000);
 
     const MainHeader = (
-      <h1 className='text-green-100 md:text-8xl tracking-tighter lg:text-9xl text-7xl'>{name.first} {name.last}</h1>
+      <h1 className='text-green-100 md:text-8xl tracking-tighter lg:text-9xl text-7xl'>{name.first} {name.last}.</h1>
     );
 
     const BottomArrow = (
