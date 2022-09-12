@@ -60,6 +60,12 @@ a {
   max-width: 80%;
 }
 
+@media screen and (min-width: 400px) {
+  .max80 {
+    max-width: 70%;
+  }
+}
+
 .height0 {
   height: 0px;
 }
@@ -114,4 +120,8 @@ a {
   -webkit-box-reflect: below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), 
   color-stop(0.7, transparent), 
   to(rgba(255, 255, 255, 0.5)));
+}
+
+.min-h-40 {
+  min-height: 200px;
 }

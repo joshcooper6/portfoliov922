@@ -2,11 +2,41 @@ import { ipod, rps, numbers, teainventory, joshuaanswers } from './assets/screen
 import { linkedin, stackoverflow, github, email } from './assets';
   
 export const currentPortfolio = [
-    {image: ipod, text: 'iPod CSS', src: 'https://jc-ipodclassic.web.app', pstn: 'object-center'},
-    {image: joshuaanswers, text: 'Peter Answers', src: 'https://joshuaanswers.web.app', pstn: '' },
-    {image: numbers, text: 'Food Inventory', src: 'https://uclinventory.web.app', pstn: ''},
-    {image: teainventory, text: 'Tea Inventory', src: 'https://teainventory.web.app', pstn: 'object-center'},
-    {image: rps, text: 'Rock Paper Scissors', src: 'https://jc-rpsgame.web.app', pstn: 'object-top'}
+    {
+        image: ipod, 
+        text: 'iPod.js', 
+        src: 'https://jc-ipodclassic.web.app', 
+        pstn: 'object-center',
+        desc: 'Audio player designed with CSS by photo reference running on Javascript.'
+    },
+    {
+        image: joshuaanswers, 
+        text: 'Peter Answers 2.0', 
+        src: 'https://joshuaanswers.web.app', 
+        pstn: '',
+        desc: 'Replicated the Peter Answers app using React.js. By toggling the cheat, you can type the desired answer while another prompt appears in its place.'
+    },
+    {
+        image: numbers, 
+        text: 'Inventory Recorder', 
+        src: 'https://uclinventory.web.app', 
+        pstn: '',
+        desc: 'Record/Format/Report food inventory for a small business that automatically renders based off of the day.'
+    },
+    {
+        image: teainventory, 
+        text: 'Tea Checklist', 
+        src: 'https://teainventory.web.app', 
+        pstn: 'object-center',
+        desc: 'Record/Format/Report tea inventory based off of quick visual cues.'
+    },
+    {
+        image: rps, 
+        text: 'Rock Paper Scissors', 
+        src: 'https://jc-rpsgame.web.app', 
+        pstn: 'object-top',
+        desc: 'Classic game created from photo reference with some added animations.'
+    }
 ];
 
 export const currentSocials = [
