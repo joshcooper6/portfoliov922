@@ -3,7 +3,7 @@ import { linkedin, stackoverflow, github, email } from './assets';
   
 export const currentPortfolio = [
     {image: ipod, text: 'iPod CSS', src: 'https://jc-ipodclassic.web.app', pstn: 'object-center'},
-    // {image: joshuaanswers, text: 'Peter Answers', src: '', pstn: '' },
+    {image: joshuaanswers, text: 'Peter Answers', src: 'https://joshuaanswers.web.app', pstn: '' },
     {image: numbers, text: 'Food Inventory', src: 'https://uclinventory.web.app', pstn: ''},
     {image: teainventory, text: 'Tea Inventory', src: 'https://teainventory.web.app', pstn: 'object-center'},
     {image: rps, text: 'Rock Paper Scissors', src: 'https://jc-rpsgame.web.app', pstn: 'object-top'}

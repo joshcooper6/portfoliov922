@@ -33,7 +33,7 @@ export default function Landing(props) {
     }, 3000);
 
     const MainHeader = (
-      <h1 className='text-green-100 md:text-8xl tracking-tighter lg:text-9xl text-7xl'>{name.first} {name.last}.</h1>
+      <h1 className='text-green-100 md:text-8xl tracking-tighter lg:text-9xl text-6xl'>{name.first} {name.last}.</h1>
     );
 
     const BottomArrow = (
@@ -43,7 +43,7 @@ export default function Landing(props) {
     );
 
     return (<>
-      <WRAP bg={images[x]} className="bg-cover bg-bottom xl:bg-center transition-ease fadeIn">
+      <WRAP bg={images[x]} className="bg-cover bg-bottom xl:bg-center transition-ease">
         <CONTENT className="min-h-screen min-w-screen flex flex-col justify-center align-center text-center">
             {MainHeader}
             {BottomArrow}

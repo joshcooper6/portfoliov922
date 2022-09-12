@@ -10,7 +10,7 @@ export default function Footer(props) {
     return(<>
         <div className='bg-green-100 flex flex-col md:flex-row-reverse p-16 justify-center w-screen gap-8 md:gap-8'>
 
-            <img src={IMAGE} alt="icon" className={`object-cover md:h-60 h-72 w-72 md:w-60 self-center circle grayscale contrast-more reflect`}/>
+            <img src={IMAGE} alt="icon" className={`object-cover md:h-60 h-72 w-72 md:w-60 self-center circle grayscale contrast-more`}/>
 
 
             <div className='self-center flex flex-col gap-2 md:gap-4'>
