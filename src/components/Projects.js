@@ -10,10 +10,8 @@ export default function Projects(props) {
     const divRef = useRef('');
 
     window.onscroll = () => {
-        let offsetBottom = divRef.current.offsetTop + divRef.current.offsetHeight
         let tracker = ((window.scrollY >= (divRef.current.offsetTop - 500)));
-        setToggled(tracker)
-        console.log(toggled)
+        setToggled(tracker);
     };
 
     const rendered = PORTFOLIO.map((item) => {

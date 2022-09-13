@@ -22,18 +22,20 @@ export default function Landing(props) {
 
   const images = props.imgs;
   const name = props.name;
-  // const [x, setX] = useState(0);
+  const [i, setI] = useState(0);
 
-    // useEffect(() => {
-    //   setInterval(() => {
-    //     if (x === images.length - 1) {
-    //       setX(0)
-    //     } else {
-    //       setX(x + 1)
-    //     }
-    //   }, 1000);
-    // });
+  { i >= images.length && setI(0) }
 
+
+  useEffect(() => {
+
+    const interval = setInterval(() => {
+      setI(prev => prev + 1);
+    }, 2000);
+
+    return () => clearInterval(interval);
+
+  }, [])
 
     const MainHeader = (
       <h1 className='text-green-100 md:text-8xl tracking-tighter lg:text-9xl text-6xl'>{name.first} {name.last}</h1>
@@ -46,7 +48,7 @@ export default function Landing(props) {
     );
 
     return (<>
-      <WRAP bg={images[0]} className="bg-cover bg-bottom xl:bg-center transition-ease">
+      <WRAP bg={images[i]} className="bg-cover bg-bottom xl:bg-center transition-ease">
         <CONTENT className="min-h-screen min-w-screen flex flex-col justify-center align-center text-center">
             {MainHeader}
             {BottomArrow}
