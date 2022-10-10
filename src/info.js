@@ -1,7 +1,14 @@
-import { ipod, rps, numbers, teainventory, joshuaanswers } from './assets/screenshots';
+import { three3d, ipod, rps, numbers, teainventory, joshuaanswers } from './assets/screenshots';
 import { linkedin, stackoverflow, github, email } from './assets';
   
 export const currentPortfolio = [
+    {
+        image: three3d, 
+        text: '3D Model with Three.js', 
+        src: 'https://jc3dthree.web.app', 
+        pstn: 'object-center',
+        desc: 'Rendered a 3D model using Ready Player Me, Blender, Mixamo, and React Three Fiber.'
+    },
     {
         image: ipod, 
         text: 'iPod.js', 
@@ -47,8 +54,8 @@ export const currentSocials = [
 ];
 
 export const aboutMe = `Currently located in the tech utopia of Seattle. Started coding to expedite daily 
-inventory tasks for a small business. Now, I have almost two years of experience building projects 
-with popular front end frameworks such as React.js and TailwindCSS.
+inventory tasks for a small business. Now, I have over two years of experience building various projects 
+with full stack frameworks such as React.js and Node.js.
 `
 
 export const name = {
