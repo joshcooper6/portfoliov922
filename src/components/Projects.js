@@ -27,7 +27,7 @@ export default function Projects(props) {
 
             <div ref={divRef} className="flex flex-col justify-center align-center text-center gap-16 transition-ease ">
                 <h1 className='text-8xl tracking-tighter font-semibold'>Projects</h1>
-                <div className={`flex flex-wrap gap-2 justify-center self-center w-11/12`}>
+                <div className={`flex flex-wrap gap-2 justify-center self-center max-w-[1000px] w-11/12`}>
                     {rendered}
                 </div>
             </div>
