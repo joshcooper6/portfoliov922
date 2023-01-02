@@ -1,5 +1,7 @@
 # Portfolio for Joshua Cooper
 
-<b>Frameworks Used:</b> React.js, TailwindCSS
+<b>Frontend:</b> React.js, TailwindCSS <br />
+<b>Backend:</b> Google Firebase (Cloud)
+
 
 <a href="https://joshuacooper.dev" target="_blank">Click here to check it out</a>
